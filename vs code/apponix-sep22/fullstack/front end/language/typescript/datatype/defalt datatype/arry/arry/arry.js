@@ -1,0 +1,20 @@
+var arr1 = 'apple';
+var arr2 = 'boll';
+var arr3 = 'cat';
+console.log(arr2);
+var myarry2 = ['apple', 'boll', 'cat'];
+console.log(myarry2[1]);
+//destructring 
+var apple1 = myarry[0], boll1 = myarry[1], cat1 = myarry[2];
+console.log(apple1);
+var myobj = {};
+var s = 3;
+var pen = { colr: 'red', cap: 'yes' };
+var myproducts = ['apple', 'boll', 'cat'];
+myproducts.map(function (myitem) { console.log(myitem); });
+var obj1 = { a: 10, b: 'boll', c: 'cat' };
+var obj2 = { a: 10, b: 'boll', c: 'cat', d: 'dog' };
+var obj3 = { a: 10, b: 'boll', e: 'elipant' };
+var myarry1 = [obj1, obj2, obj3];
+console.log(myarry1);
+myarry1.find(function (myitem) { console.log(myitem); });
