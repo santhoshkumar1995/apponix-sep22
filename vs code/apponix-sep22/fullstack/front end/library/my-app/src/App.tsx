@@ -1,18 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
+
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Home } from './page/home/Home';
+import { Contacts } from './page/contacts/Contacts';
+import { About } from './page/About/about';
+import { Layout } from './page/layout/Layout';
 
 
 export const App = () => {
 
   return <>
     <Router>
-      <Routes>
-        < Route path='/' element={<Home />} />
+      <Layout>
+        <Routes>
+          < Route path='/Home' element={<Home />} />
+          < Route path='/About' element={<About />} />
+          < Route path='/Contact' element={<Contacts />} />
 
-      </Routes>
+        </Routes>
+
+      </Layout>
+
     </Router>
   </>
 
