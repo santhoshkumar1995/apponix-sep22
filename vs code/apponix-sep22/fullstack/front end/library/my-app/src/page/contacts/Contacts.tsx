@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material"
 import { Container } from "@mui/system"
-import { Gcard } from "../../components/my card/Gcard/Gcard"
+import { Gcard } from "../../components/Gcard/Gcard"
+
 
 
 export const Contacts = () => {

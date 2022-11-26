@@ -1,9 +1,9 @@
 
 
 import { Carousel } from 'react-bootstrap'
-import img1 from '../../../image/img1.jpg'
-import img2 from '../../../image/img2.jpg'
-import img3 from '../../../image/img3.jpg'
+import img1 from '../../image/img1.jpg'
+import img2 from '../../image/img2.jpg'
+import img3 from '../../image/img3.jpg'
 
 interface IMycarousel { }
 export const Mycarousel: React.FC<IMycarousel> = (props) => {

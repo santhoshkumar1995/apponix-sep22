@@ -1,6 +1,8 @@
 import { Grid } from "@mui/material"
 import { Container } from "react-bootstrap"
-import { Topcard } from "../../components/my card/Topcard/Topcard"
+import { Topcard } from "../../components/Topcard/Topcard"
+
+
 
 
 interface IAbout{}

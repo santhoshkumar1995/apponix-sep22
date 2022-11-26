@@ -1,5 +1,5 @@
 import { Card } from "react-bootstrap"
-import img from '../../../image/con1.jpg'
+import img from '../../image/con1.jpg'
 
 interface IGcard{}
 export const Gcard:React.FC<IGcard>=(pros)=>{

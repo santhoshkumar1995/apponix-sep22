@@ -1,5 +1,6 @@
 import { Container, Grid } from "@mui/material";
-import { MyNavbar } from "../../components/my card/mynavebar/api/MyNavebar";
+import { MyNavbar } from "../../components/mynavebar/api/MyNavebar";
+
 
 interface ILayout{
     children: any;

@@ -1,5 +1,5 @@
 import { Card } from "react-bootstrap"
-import img from '../../../image/about.jpg'
+import img from '../../image/about.jpg'
 interface ITopcard{
     img:string
 }
