@@ -6,6 +6,7 @@ import { Gcard } from "../../components/Gcard/Gcard"
 
 export const Contacts = () => {
     return <>
+       <br />
         <Container>
           <Grid> 
             <Gcard />

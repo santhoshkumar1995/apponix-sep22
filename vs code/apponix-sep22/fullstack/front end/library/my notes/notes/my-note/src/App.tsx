@@ -1,30 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
+import background from "./image/bimg1.jpg";
 
-class App extends Component{
- state = {
-  incerement: 50
- }
-
- incerement=()=>{
-  this.setState(prevState => (<>
-  
-    incerement:prevState.incerement +1
-
-  </>));
- }
-
- 
-
-  render() {
-    console.log("rendering")
-    return <div>
-      <p> hello world </p>
-      <p>{this.state.incerement}</p>
-      <button onClick={this.incerement}>in</button>
-
-     </div>;
-  }
-  
+function App() {
+  return (
+    <div style={{ backgroundImage: `url(${background})` }}>
+      Hello World
+    </div>
+  );
 }
-
-export default App;

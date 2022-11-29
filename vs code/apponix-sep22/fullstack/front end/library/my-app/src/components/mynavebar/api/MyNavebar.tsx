@@ -4,7 +4,8 @@ import { Link } from "react-router-dom"
 interface IMyNavbar{}
 export const MyNavbar:React.FC<IMyNavbar>=(props)=>{
     return <>
-     <Navbar bg="light" expand="xl">
+     <Navbar  bg="dark" variant="dark" >
+      
       <Container>
         <Navbar.Brand href="#home">Santhosh creation</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -13,7 +14,9 @@ export const MyNavbar:React.FC<IMyNavbar>=(props)=>{
           <Nav.Link ><Link to='/Home'> Home</Link></Nav.Link>
             <Nav.Link > <Link to='/About'> about</Link></Nav.Link>
             <Nav.Link > <Link to='/Contact'> Contact</Link></Nav.Link>
-          
+            <Nav.Link > <Link to='/Jewellery1'>Jewellery1</Link></Nav.Link>
+            <Nav.Link > <Link to='/Flipcart'>flipcart</Link></Nav.Link>
+        
             
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
